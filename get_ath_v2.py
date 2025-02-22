@@ -55,7 +55,7 @@ def main():
             print(f"Date: {date}, All-time high: {curr_ath:.2f}")
 
     if eod == "none":
-        print(f"All-time highs for {symbol} from {high_prices[0][0]} to {high_prices[-1][0]}:")
+        print(f"All-time highs for {symbol} from {high_prices[0][0]} to {high_prices[-1][0]}")
     else:
         print(f"All-time highs for {symbol} from {high_prices[0][0]} to {eod}")
     print(f"Total number of all-time highs: {total_ath}")
